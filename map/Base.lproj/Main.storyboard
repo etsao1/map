@@ -70,51 +70,68 @@
                                 </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_dashBoardBg.png" translatesAutoresizingMaskIntoConstraints="NO" id="3lY-uv-hml">
-                                <rect key="frame" x="0.0" y="20" width="600" height="388"/>
+                                <rect key="frame" x="0.0" y="35" width="600" height="389"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="395" id="y4O-e9-Aie"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="y4O-e9-Aie"/>
+                                    </mask>
+                                </variation>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" scrollEnabled="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Hd-Gx-Gbg">
-                                <rect key="frame" x="0.0" y="408" width="600" height="90"/>
+                                <rect key="frame" x="0.0" y="423" width="600" height="75"/>
                             </scrollView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_dashBoardLine.png" translatesAutoresizingMaskIntoConstraints="NO" id="HIf-kE-chX">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_dashBoardLine2.png" translatesAutoresizingMaskIntoConstraints="NO" id="HIf-kE-chX">
                                 <rect key="frame" x="0.0" y="499" width="600" height="7"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_dashboardBtn2.png" translatesAutoresizingMaskIntoConstraints="NO" id="aC0-fY-nYM">
-                                <rect key="frame" x="20" y="37" width="60" height="60"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_dashboardLine1.png" translatesAutoresizingMaskIntoConstraints="NO" id="JIs-Eq-Sds">
+                                <rect key="frame" x="0.0" y="20" width="600" height="15"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="4PE-2Q-QW9"/>
-                                    <constraint firstAttribute="width" constant="60" id="PMa-ZX-Lc7"/>
+                                    <constraint firstAttribute="height" constant="15" id="0Cy-3W-rDy"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_dashboardBtn2.png" translatesAutoresizingMaskIntoConstraints="NO" id="aC0-fY-nYM">
+                                <rect key="frame" x="20" y="35" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="BKR-Is-Osa"/>
+                                    <constraint firstAttribute="height" constant="60" id="qLu-K2-R4A"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="U8m-F7-w8H" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="136" id="0fK-hH-3bd"/>
+                            <constraint firstItem="9Hd-Gx-Gbg" firstAttribute="leading" secondItem="3lY-uv-hml" secondAttribute="leading" id="3Mb-8h-7bC"/>
                             <constraint firstItem="U8m-F7-w8H" firstAttribute="leading" secondItem="cHw-do-0Zf" secondAttribute="trailing" id="54W-NM-lFh"/>
+                            <constraint firstItem="HIf-kE-chX" firstAttribute="top" secondItem="3lY-uv-hml" secondAttribute="bottom" constant="75" id="5rC-GP-qZD"/>
                             <constraint firstItem="cHw-do-0Zf" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="8IB-5N-Mx8"/>
-                            <constraint firstItem="9Hd-Gx-Gbg" firstAttribute="trailing" secondItem="HIf-kE-chX" secondAttribute="trailing" id="8aJ-n6-1bu"/>
                             <constraint firstItem="cHw-do-0Zf" firstAttribute="top" secondItem="HIf-kE-chX" secondAttribute="bottom" id="8gd-G0-xsf"/>
                             <constraint firstItem="HIf-kE-chX" firstAttribute="leading" secondItem="cHw-do-0Zf" secondAttribute="leading" id="CjQ-9G-lHO"/>
-                            <constraint firstItem="3lY-uv-hml" firstAttribute="trailing" secondItem="3kK-k0-dtk" secondAttribute="trailing" id="GKJ-hK-SPM"/>
+                            <constraint firstItem="9Hd-Gx-Gbg" firstAttribute="trailing" secondItem="HIf-kE-chX" secondAttribute="trailing" id="D8d-W0-Db0"/>
+                            <constraint firstItem="3lY-uv-hml" firstAttribute="leading" secondItem="JIs-Eq-Sds" secondAttribute="leading" id="DEQ-WW-a4I"/>
                             <constraint firstItem="HXf-XU-vuI" firstAttribute="leading" secondItem="cHw-do-0Zf" secondAttribute="trailing" constant="93" id="Id6-74-Glg"/>
                             <constraint firstItem="cHw-do-0Zf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="22" id="Iso-WJ-xSS"/>
-                            <constraint firstItem="3lY-uv-hml" firstAttribute="leading" secondItem="cHw-do-0Zf" secondAttribute="leading" id="J5k-Uz-lYT"/>
-                            <constraint firstItem="aC0-fY-nYM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Jhb-qr-5Xq"/>
-                            <constraint firstItem="HIf-kE-chX" firstAttribute="top" secondItem="9Hd-Gx-Gbg" secondAttribute="bottom" constant="1" id="LD9-dy-oMF"/>
                             <constraint firstItem="HXf-XU-vuI" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="Ooz-xP-22n"/>
-                            <constraint firstItem="9Hd-Gx-Gbg" firstAttribute="leading" secondItem="HIf-kE-chX" secondAttribute="leading" id="RCg-cN-B2s"/>
-                            <constraint firstItem="cHw-do-0Zf" firstAttribute="top" secondItem="9Hd-Gx-Gbg" secondAttribute="bottom" constant="8" symbolic="YES" id="Vyj-Ce-X1T"/>
-                            <constraint firstAttribute="trailing" secondItem="3lY-uv-hml" secondAttribute="trailing" id="YmP-Oj-EhJ"/>
+                            <constraint firstItem="cHw-do-0Zf" firstAttribute="top" secondItem="9Hd-Gx-Gbg" secondAttribute="bottom" constant="8" symbolic="YES" id="Rc4-4u-1I2"/>
+                            <constraint firstItem="3lY-uv-hml" firstAttribute="trailing" secondItem="JIs-Eq-Sds" secondAttribute="trailing" id="SAU-5s-G8N"/>
+                            <constraint firstItem="9Hd-Gx-Gbg" firstAttribute="trailing" secondItem="3lY-uv-hml" secondAttribute="trailing" id="ShN-W8-4Tn"/>
+                            <constraint firstItem="9Hd-Gx-Gbg" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="423" id="Yfy-oB-YuJ"/>
                             <constraint firstItem="3kK-k0-dtk" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="auY-gk-bx2"/>
+                            <constraint firstItem="9Hd-Gx-Gbg" firstAttribute="leading" secondItem="HIf-kE-chX" secondAttribute="leading" id="fRk-Cv-Orm"/>
+                            <constraint firstItem="aC0-fY-nYM" firstAttribute="top" secondItem="3lY-uv-hml" secondAttribute="top" id="fh3-KP-WlS"/>
                             <constraint firstItem="HIf-kE-chX" firstAttribute="trailing" secondItem="3kK-k0-dtk" secondAttribute="trailing" id="gDH-0R-kTX"/>
-                            <constraint firstItem="3lY-uv-hml" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="hHm-n2-xQ2"/>
-                            <constraint firstItem="3lY-uv-hml" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="idu-FU-P0L"/>
+                            <constraint firstItem="HIf-kE-chX" firstAttribute="top" secondItem="9Hd-Gx-Gbg" secondAttribute="bottom" constant="1" id="gqM-zC-RBh"/>
+                            <constraint firstItem="aC0-fY-nYM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="jVf-fe-GYV"/>
+                            <constraint firstItem="3lY-uv-hml" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="jY4-8g-3Bg"/>
                             <constraint firstItem="U8m-F7-w8H" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="p23-3q-PpQ"/>
+                            <constraint firstItem="3lY-uv-hml" firstAttribute="top" secondItem="JIs-Eq-Sds" secondAttribute="bottom" id="s3I-x6-7wx"/>
                             <constraint firstItem="HXf-XU-vuI" firstAttribute="top" secondItem="3kK-k0-dtk" secondAttribute="top" id="s8b-x3-I7l"/>
-                            <constraint firstItem="aC0-fY-nYM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="17" id="sKb-K1-JkZ"/>
                             <constraint firstItem="U8m-F7-w8H" firstAttribute="top" secondItem="cHw-do-0Zf" secondAttribute="top" id="siN-3k-Bwt"/>
-                            <constraint firstItem="9Hd-Gx-Gbg" firstAttribute="top" secondItem="3lY-uv-hml" secondAttribute="bottom" id="vJK-YV-OxS"/>
-                            <constraint firstItem="cHw-do-0Zf" firstAttribute="top" secondItem="3lY-uv-hml" secondAttribute="bottom" constant="98" id="vwR-ME-rdC"/>
+                            <constraint firstAttribute="trailing" secondItem="3lY-uv-hml" secondAttribute="trailing" id="vIE-vd-czh"/>
                             <constraint firstItem="U8m-F7-w8H" firstAttribute="top" secondItem="HXf-XU-vuI" secondAttribute="top" id="wX8-Bb-oc6"/>
+                            <constraint firstItem="JIs-Eq-Sds" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="xFI-nv-VDt"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
@@ -125,6 +142,7 @@
                     </view>
                     <connections>
                         <outlet property="imgNavi" destination="3kK-k0-dtk" id="a2m-TH-4QL"/>
+                        <outlet property="imgSetting" destination="aC0-fY-nYM" id="49z-tJ-OH7"/>
                         <outlet property="scrollView" destination="9Hd-Gx-Gbg" id="M9G-Bp-kBM"/>
                     </connections>
                 </viewController>
@@ -257,10 +275,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="img_dashBoardBg.png" width="592" height="764"/>
-        <image name="img_dashBoardLine.png" width="594" height="12"/>
+        <image name="img_dashBoardBg.png" width="592" height="738"/>
+        <image name="img_dashBoardLine2.png" width="594" height="12"/>
         <image name="img_dashboardBtn1.png" width="155" height="155"/>
         <image name="img_dashboardBtn2.png" width="85" height="85"/>
+        <image name="img_dashboardLine1.png" width="592" height="22"/>
         <image name="img_mapBtn1.png" width="326" height="300"/>
         <image name="img_mapBtn2.png" width="326" height="300"/>
         <image name="img_mapBtn3.png" width="326" height="300"/>

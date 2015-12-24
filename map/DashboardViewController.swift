@@ -11,6 +11,7 @@ class DashboardViewController: UIViewController {
     
     @IBOutlet weak var imgNavi: UIImageView!
     
+    @IBOutlet weak var imgSetting: UIImageView!
     
     @IBOutlet weak var scrollView: UIScrollView!
     
@@ -18,17 +19,29 @@ class DashboardViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //add tpa action to imageView
-        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action:Selector("tappedImage"))
+        //add tpa action to imgNavi
+        let tapGestureRecognizerImgNavi = UITapGestureRecognizer(target: self, action:Selector("tappedNavi"))
         imgNavi.userInteractionEnabled = true
-        imgNavi.addGestureRecognizer(tapGestureRecognizer)
+        imgNavi.addGestureRecognizer(tapGestureRecognizerImgNavi)
+        
+        //add tpa action to imgSetting
+        let tapGestureRecognizerImgSetting = UITapGestureRecognizer(target: self, action:Selector("tappedSetting"))
+        imgSetting.userInteractionEnabled = true
+        imgSetting.addGestureRecognizer(tapGestureRecognizerImgSetting)
+        
+        
     }
 
-    func tappedImage(){
+    
+    
+    func tappedNavi(){
         print("go to map")
     }
     
 
+    func tappedSetting(){
+        print("go to setting")
+    }
     
     
     
