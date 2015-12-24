@@ -13,14 +13,17 @@
 		3CB082CA1C293BA2006B4FC5 /* img_mapBtn4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB082C91C293BA2006B4FC5 /* img_mapBtn4.png */; };
 		3CB082CE1C294D33006B4FC5 /* img_dashBoardBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB082CD1C294D33006B4FC5 /* img_dashBoardBg.png */; };
 		3CB082D01C294DD8006B4FC5 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB082CF1C294DD8006B4FC5 /* DashboardViewController.swift */; };
-		3CB082D21C294FA2006B4FC5 /* img_dashboardBtn1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB082D11C294FA2006B4FC5 /* img_dashboardBtn1.png */; };
 		3CB082D71C2A4CC9006B4FC5 /* img_modeBoostOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB082D31C2A4CC9006B4FC5 /* img_modeBoostOff.png */; };
 		3CB082D81C2A4CC9006B4FC5 /* img_modeEkickOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB082D41C2A4CC9006B4FC5 /* img_modeEkickOff.png */; };
 		3CB082D91C2A4CC9006B4FC5 /* img_modeRideOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB082D51C2A4CC9006B4FC5 /* img_modeRideOff.png */; };
 		3CB082DA1C2A4CC9006B4FC5 /* img_modeRideOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB082D61C2A4CC9006B4FC5 /* img_modeRideOn.png */; };
-		3CB082DD1C2BA3F2006B4FC5 /* img_dashboardBtn2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB082DB1C2BA3F2006B4FC5 /* img_dashboardBtn2.png */; };
 		3CB082E11C2BA8A7006B4FC5 /* img_dashboardLine1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB082DF1C2BA8A7006B4FC5 /* img_dashboardLine1.png */; };
 		3CB082E21C2BA8A7006B4FC5 /* img_dashBoardLine2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB082E01C2BA8A7006B4FC5 /* img_dashBoardLine2.png */; };
+		3CB082E91C2BD132006B4FC5 /* img_dashboardBtnNavi.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB082E41C2BD132006B4FC5 /* img_dashboardBtnNavi.png */; };
+		3CB082EA1C2BD132006B4FC5 /* img_dashBoardPower.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB082E51C2BD132006B4FC5 /* img_dashBoardPower.png */; };
+		3CB082EB1C2BD132006B4FC5 /* img_dashBoardProfile.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB082E61C2BD132006B4FC5 /* img_dashBoardProfile.png */; };
+		3CB082EC1C2BD132006B4FC5 /* img_dashBoardSetting.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB082E71C2BD132006B4FC5 /* img_dashBoardSetting.png */; };
+		3CB082EE1C2BD1ED006B4FC5 /* img_dashboardBattery.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB082ED1C2BD1ED006B4FC5 /* img_dashboardBattery.png */; };
 		3CD0801D1C27B6A300749A42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD0801C1C27B6A300749A42 /* AppDelegate.swift */; };
 		3CD0801F1C27B6A300749A42 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD0801E1C27B6A300749A42 /* MapViewController.swift */; };
 		3CD080221C27B6A300749A42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CD080201C27B6A300749A42 /* Main.storyboard */; };
@@ -54,14 +57,17 @@
 		3CB082C91C293BA2006B4FC5 /* img_mapBtn4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img_mapBtn4.png; path = map/images/img_mapBtn4.png; sourceTree = "<group>"; };
 		3CB082CD1C294D33006B4FC5 /* img_dashBoardBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img_dashBoardBg.png; path = map/images/img_dashBoardBg.png; sourceTree = "<group>"; };
 		3CB082CF1C294DD8006B4FC5 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
-		3CB082D11C294FA2006B4FC5 /* img_dashboardBtn1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img_dashboardBtn1.png; path = map/images/img_dashboardBtn1.png; sourceTree = "<group>"; };
 		3CB082D31C2A4CC9006B4FC5 /* img_modeBoostOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img_modeBoostOff.png; path = map/images/img_modeBoostOff.png; sourceTree = "<group>"; };
 		3CB082D41C2A4CC9006B4FC5 /* img_modeEkickOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img_modeEkickOff.png; path = map/images/img_modeEkickOff.png; sourceTree = "<group>"; };
 		3CB082D51C2A4CC9006B4FC5 /* img_modeRideOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img_modeRideOff.png; path = map/images/img_modeRideOff.png; sourceTree = "<group>"; };
 		3CB082D61C2A4CC9006B4FC5 /* img_modeRideOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img_modeRideOn.png; path = map/images/img_modeRideOn.png; sourceTree = "<group>"; };
-		3CB082DB1C2BA3F2006B4FC5 /* img_dashboardBtn2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img_dashboardBtn2.png; path = map/images/img_dashboardBtn2.png; sourceTree = "<group>"; };
 		3CB082DF1C2BA8A7006B4FC5 /* img_dashboardLine1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img_dashboardLine1.png; path = map/images/img_dashboardLine1.png; sourceTree = "<group>"; };
 		3CB082E01C2BA8A7006B4FC5 /* img_dashBoardLine2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img_dashBoardLine2.png; path = map/images/img_dashBoardLine2.png; sourceTree = "<group>"; };
+		3CB082E41C2BD132006B4FC5 /* img_dashboardBtnNavi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img_dashboardBtnNavi.png; path = map/images/img_dashboardBtnNavi.png; sourceTree = "<group>"; };
+		3CB082E51C2BD132006B4FC5 /* img_dashBoardPower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img_dashBoardPower.png; path = map/images/img_dashBoardPower.png; sourceTree = "<group>"; };
+		3CB082E61C2BD132006B4FC5 /* img_dashBoardProfile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img_dashBoardProfile.png; path = map/images/img_dashBoardProfile.png; sourceTree = "<group>"; };
+		3CB082E71C2BD132006B4FC5 /* img_dashBoardSetting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img_dashBoardSetting.png; path = map/images/img_dashBoardSetting.png; sourceTree = "<group>"; };
+		3CB082ED1C2BD1ED006B4FC5 /* img_dashboardBattery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img_dashboardBattery.png; path = map/images/img_dashboardBattery.png; sourceTree = "<group>"; };
 		3CD080191C27B6A300749A42 /* map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = map.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CD0801C1C27B6A300749A42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CD0801E1C27B6A300749A42 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -105,14 +111,17 @@
 		3CD080101C27B6A300749A42 = {
 			isa = PBXGroup;
 			children = (
+				3CB082ED1C2BD1ED006B4FC5 /* img_dashboardBattery.png */,
+				3CB082E41C2BD132006B4FC5 /* img_dashboardBtnNavi.png */,
+				3CB082E51C2BD132006B4FC5 /* img_dashBoardPower.png */,
+				3CB082E61C2BD132006B4FC5 /* img_dashBoardProfile.png */,
+				3CB082E71C2BD132006B4FC5 /* img_dashBoardSetting.png */,
 				3CB082DF1C2BA8A7006B4FC5 /* img_dashboardLine1.png */,
 				3CB082E01C2BA8A7006B4FC5 /* img_dashBoardLine2.png */,
-				3CB082DB1C2BA3F2006B4FC5 /* img_dashboardBtn2.png */,
 				3CB082D31C2A4CC9006B4FC5 /* img_modeBoostOff.png */,
 				3CB082D41C2A4CC9006B4FC5 /* img_modeEkickOff.png */,
 				3CB082D51C2A4CC9006B4FC5 /* img_modeRideOff.png */,
 				3CB082D61C2A4CC9006B4FC5 /* img_modeRideOn.png */,
-				3CB082D11C294FA2006B4FC5 /* img_dashboardBtn1.png */,
 				3CB082CD1C294D33006B4FC5 /* img_dashBoardBg.png */,
 				3CB082C91C293BA2006B4FC5 /* img_mapBtn4.png */,
 				3CB082C71C293B9B006B4FC5 /* img_mapBtn3.png */,
@@ -272,22 +281,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CB082DD1C2BA3F2006B4FC5 /* img_dashboardBtn2.png in Resources */,
 				3CB082DA1C2A4CC9006B4FC5 /* img_modeRideOn.png in Resources */,
+				3CB082E91C2BD132006B4FC5 /* img_dashboardBtnNavi.png in Resources */,
 				3CD080271C27B6A300749A42 /* LaunchScreen.storyboard in Resources */,
 				3CB082C61C293990006B4FC5 /* img_mapBtn2.png in Resources */,
 				3CB082D81C2A4CC9006B4FC5 /* img_modeEkickOff.png in Resources */,
 				3CB082D71C2A4CC9006B4FC5 /* img_modeBoostOff.png in Resources */,
 				3CB082CE1C294D33006B4FC5 /* img_dashBoardBg.png in Resources */,
+				3CB082EE1C2BD1ED006B4FC5 /* img_dashboardBattery.png in Resources */,
 				3CB082E21C2BA8A7006B4FC5 /* img_dashBoardLine2.png in Resources */,
+				3CB082EA1C2BD132006B4FC5 /* img_dashBoardPower.png in Resources */,
 				3CB082C41C293986006B4FC5 /* img_mapBtn1.png in Resources */,
 				3CB082E11C2BA8A7006B4FC5 /* img_dashboardLine1.png in Resources */,
+				3CB082EC1C2BD132006B4FC5 /* img_dashBoardSetting.png in Resources */,
 				3CB082C81C293B9B006B4FC5 /* img_mapBtn3.png in Resources */,
 				3CB082CA1C293BA2006B4FC5 /* img_mapBtn4.png in Resources */,
+				3CB082EB1C2BD132006B4FC5 /* img_dashBoardProfile.png in Resources */,
 				3CD080241C27B6A300749A42 /* Assets.xcassets in Resources */,
 				3CD080221C27B6A300749A42 /* Main.storyboard in Resources */,
 				3CB082D91C2A4CC9006B4FC5 /* img_modeRideOff.png in Resources */,
-				3CB082D21C294FA2006B4FC5 /* img_dashboardBtn1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
