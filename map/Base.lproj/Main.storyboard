@@ -334,11 +334,11 @@
         <image name="img_dashBoardProfile.png" width="96" height="96"/>
         <image name="img_dashBoardSetting.png" width="96" height="96"/>
         <image name="img_dashboardBattery.png" width="96" height="96"/>
-        <image name="img_dashboardBtnNavi.png" width="155" height="155"/>
+        <image name="img_dashboardBtnNavi.png" width="96" height="96"/>
         <image name="img_dashboardLine1.png" width="592" height="22"/>
-        <image name="img_mapBtn1.png" width="326" height="300"/>
-        <image name="img_mapBtn2.png" width="326" height="300"/>
-        <image name="img_mapBtn3.png" width="326" height="300"/>
-        <image name="img_mapBtn4.png" width="418" height="418"/>
+        <image name="img_mapBtn1.png" width="104" height="96"/>
+        <image name="img_mapBtn2.png" width="104" height="96"/>
+        <image name="img_mapBtn3.png" width="104" height="96"/>
+        <image name="img_mapBtn4.png" width="96" height="96"/>
     </resources>
 </document>
